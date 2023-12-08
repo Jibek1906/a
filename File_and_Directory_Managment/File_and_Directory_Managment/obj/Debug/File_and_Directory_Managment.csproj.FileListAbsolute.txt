@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\bin\Debug\File_and_Directory_Managment.exe.config
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\bin\Debug\File_and_Directory_Managment.exe
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\bin\Debug\File_and_Directory_Managment.pdb
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\obj\Debug\File_and_Directory_Managment.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\obj\Debug\File_and_Directory_Managment.Form1.resources
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\obj\Debug\File_and_Directory_Managment.Properties.Resources.resources
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\obj\Debug\File_and_Directory_Managment.csproj.GenerateResource.cache
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\obj\Debug\File_and_Directory_Managment.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\obj\Debug\File_and_Directory_Managment.exe
+C:\Users\User\source\repos\File_and_Directory_Managment\File_and_Directory_Managment\obj\Debug\File_and_Directory_Managment.pdb
