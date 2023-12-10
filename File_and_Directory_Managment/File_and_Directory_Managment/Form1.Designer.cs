@@ -39,6 +39,7 @@
             this.btnOpenDirectory = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnGoBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtFileName
@@ -163,12 +164,26 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Move to:";
             // 
+            // btnGoBack
+            // 
+            this.btnGoBack.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnGoBack.Font = new System.Drawing.Font("Swis721 Hv BT", 9.75F);
+            this.btnGoBack.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnGoBack.Location = new System.Drawing.Point(12, 12);
+            this.btnGoBack.Name = "btnGoBack";
+            this.btnGoBack.Size = new System.Drawing.Size(75, 33);
+            this.btnGoBack.TabIndex = 11;
+            this.btnGoBack.Text = "back";
+            this.btnGoBack.UseVisualStyleBackColor = false;
+            this.btnGoBack.Click += new System.EventHandler(this.btnGoBack_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(559, 353);
+            this.Controls.Add(this.btnGoBack);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOpenDirectory);
@@ -201,6 +216,7 @@
         private System.Windows.Forms.Button btnOpenDirectory;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnGoBack;
     }
 }
 

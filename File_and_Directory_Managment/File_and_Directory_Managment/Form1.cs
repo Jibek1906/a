@@ -63,7 +63,7 @@ namespace File_and_Directory_Managment
                         MessageBox.Show("Enter a valid destination path", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
-                catch (Exception ex)
+                catch (IOException ex)
                 {
                     MessageBox.Show($"Error moving the file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -73,6 +73,10 @@ namespace File_and_Directory_Managment
                 MessageBox.Show("Select a file or directory to move", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        // Аналогичные изменения для других методов, где есть работа с файлами.
+
+
 
         private void btnCreateFile_Click(object sender, EventArgs e)
         {
@@ -233,6 +237,11 @@ namespace File_and_Directory_Managment
             }
 
             return false;
+        }
+
+        private void btnGoBack_Click(object sender, EventArgs e)
+        {
+            RefreshFileList(Directory.GetFileSystemEntries(Environment.CurrentDirectory));
         }
 
     }
